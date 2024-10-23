@@ -1,27 +1,78 @@
-# vite-template-redux
+# ← → ↑ ↓ Arrow Game
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+## 🐧 Links
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
+- `Project` https://ponomarenkoaa4.github.io/arrow-game-react/
+- `Repository` https://github.com/Ponomarenkoaa4/arrow-game-react
+
+---
+
+## 🐶 Available Scripts and Commands
+
+```bash
+# Install
+npm i                    # install dependencies
 ```
 
-## Goals
+```bash
+# General
+npm run dev            # run app in the development mode
+npm run deploy           # deploy app on Github Pages
+```
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+```bash
+# Deploy (part of "deploy" script)
+npm run build            # builds the app for production
+```
 
-## Scripts
+---
 
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
+## 🦄 STACK
 
-## Inspiration
+React + Typescript
+Redux + Redux Toolkit
+Material UI
+ESLint + Prettier + Husky
+Vite, Vitest
+GitHub Pages
 
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+---
+
+## 🐼 Рассмотренные темы
+
+### React.js
+
+- Настройка проекта:
+  Установка template от Redux Toolkit
+  Настройка ESLint, Prettier
+  Настройка Prettier в VSCode
+  Настройка hook pre-commit с Husky
+- Бизнес логика на Redux Toolkit:
+  Написание reducers
+  Декомпозиция по компонентам
+- Подключение Material-UI и создание UI-Kit:
+  Подключение Material-UI
+  Создание UI-Kit
+  Стилизация компонентов
+  Добавление favicon
+- Написание тестов на Vitest
+- Деплой на GitHub Pages
+
+---
+
+## 🐣 Порядок импортов
+
+- Библиотеки
+- Контекст
+- HOC
+- UI-компоненты
+- Компоненты
+- Изображения
+- Хуки
+- Роуты
+- Сервисы
+- Утилиты
+- Константы
+- Стили
+
+---
