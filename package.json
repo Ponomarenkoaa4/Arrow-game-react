@@ -14,7 +14,7 @@
     "lint:fix": "eslint --fix .",
     "type-check": "tsc --noEmit",
     "prepare": "husky",
-    "gh-pages": "gh-pages -d dist",
+    "gh-pages": "gh-pages -d dist -r https://github.com/Ponomarenkoaa4/Arrow-game-react",
     "deploy": "npm run build && npm run gh-pages"
   },
   "dependencies": {
